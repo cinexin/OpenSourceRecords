@@ -5,19 +5,21 @@ html, body, h1, h2, h3, h4, ul, ol, li, p, a {
 }
 h1 {
   color: #000000;
-  margin: 0 0 15px 0;
-  text-align: center;
-}
-h2 {
-  color: #000000;
   margin: 15px 0 15px;
   text-align:center;
 }
-h3 {
+
+h2 {
   color: #333333;
   margin: 20px 0 5px 0;
   border-bottom: 1px solid #aaaaaa;
   padding: 2px;
+}
+
+
+h3 {
+  color: #666666;
+  margin: 10px 0 10px 0;
 }
 
 h4 {
@@ -84,6 +86,12 @@ li {
 .header {
   padding: 15px;
 }
+
+.header img {
+  display: block;
+  margin: 0 auto 15px auto;
+}
+
 .nav {
   padding: 0;
   text-align: center;
