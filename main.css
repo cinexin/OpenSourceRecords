@@ -6,10 +6,12 @@ html, body, h1, h2, h3, h4, ul, ol, li, p, a {
 h1 {
   color: #000000;
   margin: 0 0 15px 0;
+  text-align: center;
 }
 h2 {
   color: #000000;
   margin: 15px 0 15px;
+  text-align:center;
 }
 h3 {
   color: #333333;
@@ -17,10 +19,12 @@ h3 {
   border-bottom: 1px solid #aaaaaa;
   padding: 2px;
 }
+
 h4 {
   color: #666666;
   margin: 10px 0 10px 0;
 }
+
 p {
   color: #444444;
   margin: 0 0 10px 0;
@@ -36,6 +40,31 @@ li {
   margin-bottom: 5px;
 }
 
+.album {
+    border: 2px dashed;
+    padding: 10px 5px 10px 5px;
+    margin:5px;
+}
+
+.bands-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.bands-list a {
+  text-decoration: none;
+  color: #ff2244;
+}
+
+.bands-list h3 {
+    border: 0;
+    margin:0;
+}
+
+.bands-list li {
+  border: 1px solid #555555;
+}
+
 .day-time {
   color: #444444;
   text-decoration: underline;
@@ -46,8 +75,18 @@ li {
   text-decoration: underline;
 }
 
+.content-section {
+  padding: 15px;
+  width: 450px;
+  margin: 0 auto;
+}
+
+.header {
+  padding: 15px;
+}
 .nav {
   padding: 0;
+  text-align: center;
 }
 
 .nav li {
@@ -58,7 +97,7 @@ li {
   padding-right:0;
 }
 body {
-  padding: 15px;
+  padding: 0;
 }
 ol {
   padding: 0 0 0 20px;
