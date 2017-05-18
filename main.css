@@ -6,6 +6,10 @@ html, body, h1, h2, h3, h4, ul, ol, li, p, a {
   font-size: 100%;
 }
 
+a {
+  color: #440000;
+}
+
 body {
   padding: 0;
   background: #555555 url(images/bg-tile.png);
@@ -46,6 +50,41 @@ h4 {
   font-family: Verdana, sans-serif;
 }
 
+input{
+
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+input[type=text] {
+  width: 445px;
+  display: block;
+}
+
+input[type=checkbox]{
+  display: inline;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+label[for=on-tour] {
+  display: inline;
+}
+
+input[type=submit]{
+  width: 250px;
+  display: block;
+}
+
+
+li {
+  margin-bottom: 5px;
+  line-height: 22px;
+}
+
 ol {
   padding: 0 0 0 20px;
 }
@@ -55,16 +94,16 @@ p {
   margin: 0 0 10px 0;
   line-height: 24px;
 }
-a {
-  color: #440000;
-}
-ul {
-  padding: 0 0 0 30px;
+
+textarea {
+  display: block;
+  margin-bottom: 15px;
+  width: 445px;
+  font-size: 20px;
 }
 
-li {
-  margin-bottom: 5px;
-  line-height: 22px;
+ul {
+  padding: 0 0 0 30px;
 }
 
 .album {
