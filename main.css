@@ -3,8 +3,15 @@ html, body, h1, h2, h3, h4, ul, ol, li, p, a {
   border: 0;
   margin: 0;
 }
+
+body {
+  padding: 0;
+  background: #555555 url(images/bg-tile.png);
+  font-family: cursive;
+}
+
 h1 {
-  color: #000000;
+  color: #EEEEEE;
   margin: 15px 0 15px;
   text-align:center;
 }
@@ -25,6 +32,10 @@ h3 {
 h4 {
   color: #666666;
   margin: 10px 0 10px 0;
+}
+
+ol {
+  padding: 0 0 0 20px;
 }
 
 p {
@@ -80,11 +91,14 @@ li {
 .content-section {
   padding: 15px;
   width: 450px;
-  margin: 0 auto;
+  margin: 5px auto;
+  background: #dddddd url(images/bg-content.png);
+  border-radius: 5px;
 }
 
 .header {
   padding: 15px;
+  background: #242424 url(images/bg-header.png) center ;
 }
 
 .header img {
@@ -97,6 +111,10 @@ li {
   text-align: center;
 }
 
+.nav a {
+  color: #ee932a;
+}
+
 .nav li {
   display: inline;
   padding-right:20px;
@@ -104,8 +122,17 @@ li {
 .nav li:last-child {
   padding-right:0;
 }
-body {
-  padding: 0;
+
+.recording-now {
+  margin-top: 5px;
+  width: 440px;
+  height: 200px;
+  background: #ffffff url(images/prependers-recording.jpg) top center no-repeat  ;
+  border: 1px solid #ff0000;
+  padding: 4px;
 }
-ol {
-  padding: 0 0 0 20px;
+
+ .recording-now p {
+   font-size: 28px;
+
+ }
