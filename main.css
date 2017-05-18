@@ -2,18 +2,24 @@ html, body, h1, h2, h3, h4, ul, ol, li, p, a {
   padding: 0;
   border: 0;
   margin: 0;
+  font: inherit;
+  font-size: 100%;
 }
 
 body {
   padding: 0;
   background: #555555 url(images/bg-tile.png);
-  font-family: cursive;
+  font-family: Garamond, serif;
+  font-size: 16px;
 }
 
 h1 {
   color: #EEEEEE;
   margin: 15px 0 15px;
   text-align:center;
+  font-family: Verdana, sans-serif;
+  font-size: 32px;
+  font-weight: bold;
 }
 
 h2 {
@@ -21,17 +27,23 @@ h2 {
   margin: 20px 0 5px 0;
   border-bottom: 1px solid #aaaaaa;
   padding: 2px;
+  font-family: Verdana, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
 }
 
 
 h3 {
   color: #666666;
   margin: 10px 0 10px 0;
+  font-family: Verdana, sans-serif;
+  font-size: 20px;
 }
 
 h4 {
   color: #666666;
   margin: 10px 0 10px 0;
+  font-family: Verdana, sans-serif;
 }
 
 ol {
@@ -41,6 +53,7 @@ ol {
 p {
   color: #444444;
   margin: 0 0 10px 0;
+  line-height: 24px;
 }
 a {
   color: #440000;
@@ -51,12 +64,17 @@ ul {
 
 li {
   margin-bottom: 5px;
+  line-height: 22px;
 }
 
 .album {
     border: 2px dashed;
     padding: 10px 5px 10px 5px;
     margin:5px;
+}
+
+.album img {
+  float: right;
 }
 
 .bands-list {
@@ -69,6 +87,13 @@ li {
   color: #ff2244;
 }
 
+
+.bands-list img {
+    float: left;
+    padding-right: 15px;
+
+}
+
 .bands-list h3 {
     border: 0;
     margin:0;
@@ -76,6 +101,7 @@ li {
 
 .bands-list li {
   border: 1px solid #555555;
+  height:120px;
 }
 
 .day-time {
